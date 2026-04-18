@@ -86,6 +86,22 @@ The goal is to transform raw healthcare data into **clear, actionable visual ins
 - Data Storytelling  
 
 ---
-
 ## 📁 Repository Structure
-<pre> ## 📁 Repository Structure ``` Kidney-Disease-PowerBI/ │ ├── dashboards/ │ └── Kidney_Disease_Dashboard.pbix │ ├── datasets/ │ ├── raw_data.csv │ └── cleaned_data.csv │ ├── images/ │ ├── kidney_dashboard.png │ ├── overview.png │ ├── health_indicators.png │ └── trends.png │ ├── docs/ │ └── project_summary.pdf │ ├── README.md └── requirements.txt ``` </pre>
+
+```
+Kidney-Disease-PowerBI/
+├── dashboards/
+│   └── Kidney_Disease_Dashboard.pbix
+├── datasets/
+│   ├── raw_data.csv
+│   └── cleaned_data.csv
+├── images/
+│   ├── kidney_dashboard.png
+│   ├── overview.png
+│   ├── health_indicators.png
+│   └── trends.png
+├── docs/
+│   └── project_summary.pdf
+├── README.md
+└── requirements.txt
+```
