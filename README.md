@@ -1,107 +1,161 @@
-# 🌟 Kidney Disease Analytics Dashboard  
-### 📊 Power BI | Healthcare Insights | Data Visualization  
+💊 Global Pharmacy Analytics Dashboard
+📊 Turning Complex Data into Strategic Decisions
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Healthcare-Analytics-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Data%20Visualization-Storytelling-green?style=for-the-badge"/>
-</p>
 
----
 
-## 🧠 Overview  
 
-This project presents an **interactive Power BI dashboard** designed to analyse patient data related to **Chronic Kidney Disease (CKD)**.  
 
-The goal is to transform raw healthcare data into **clear, actionable visual insights** that support better understanding of disease patterns and patient health indicators.
 
----
 
-## 🎯 Objective  
 
-- Visualise key kidney health indicators  
-- Identify trends and high-risk patient groups  
-- Enable data-driven insights  
-- Support healthcare decision-making  
+🌍 Project Overview
 
----
+Pharmacy chains operating across multiple countries generate vast amounts of data — but data alone doesn’t drive decisions.
 
-## 🛠️ Tools & Technologies  
+This project transforms fragmented pharmacy data into actionable insights by analysing:
 
-- Power BI (DAX, Power Query, Data Modelling)  
-- Excel / CSV datasets  
-- Data Cleaning & Transformation  
+Sales performance
+Profitability drivers
+Regional trends
+Product behaviour
+Promotion effectiveness
 
----
+👉 The goal: Enable smarter, faster, and more profitable decisions
 
-## 📊 Dashboard Features  
+🎯 Business Problem
 
-### 🧩 Patient Overview  
-- Total number of patients  
-- Age distribution  
-- Gender breakdown  
+Pharmacy leaders often lack:
 
-### 🩺 Health Indicators  
-- Blood Pressure  
-- Creatinine Levels  
-- Haemoglobin  
-- Glucose  
+❌ A unified view of global performance
+❌ Clear identification of high-value locations
+❌ Insight into profitability vs volume trade-offs
+❌ Understanding of promotion ROI
+❌ Visibility into regional and seasonal trends
 
-### 📈 Analysis & Insights  
-- Distribution of CKD cases  
-- Patterns across age groups  
-- Relationships between health indicators  
+⚠️ Key Challenges Identified
 
-### 🔍 Interactivity  
-- Filters (Age, Gender, Condition)  
-- Drill-down analysis  
-- Dynamic visuals  
+🌍 Fragmented Global Visibility
+Disconnected country-level data
+No single source of truth
+📊 Performance Variability
+Sales & profit vary significantly across pharmacies
+Hard to identify true top performers
+📅 Seasonal Demand Complexity
+Demand fluctuations impact:
+Inventory
+Staffing
+Promotions
+💸 Low Margin, High Volume Products
+Drive revenue but reduce profitability
+Skew performance insights
+🎯 Promotion Effectiveness
+Limited tracking of:
+Discount impact
+Campaign ROI
+🏙️ Location-Based Differences
+Urban vs rural performance gaps
+Missed segmentation opportunities
+🛍️ Product & Brand Inconsistency
+Regional variation in product success
+Pricing and assortment challenges
+🔍 Lack of Drill-Down Insights
+Weak hierarchy:
+Country → Region → Pharmacy
+Limits accountability
+🗺️ Hidden Geographic Trends
+Missed regional growth opportunities
+📉 Strategic Disconnect
+Regional insights not linked to overall business strategy
 
----
+🎯 Project Objectives
 
-## 🖼️ Dashboard Preview  
+✔ Identify high-performing vs underperforming pharmacies
+✔ Analyse profitability drivers across regions
+✔ Detect seasonal demand patterns
+✔ Evaluate product & brand performance
+✔ Measure promotion effectiveness
+✔ Enable drill-down analysis
+✔ Uncover geographic opportunities
 
-<p align="center">
-  <img src="images/kidney_dashboard.png" width="700"/>
-</p>
+📊 Dashboard Preview
 
-> 📌 *Add your actual dashboard screenshot in the `images` folder*
+(Add your Power BI screenshots here 👇)
 
----
+🔍 Key Insights (Example)
 
-## 📊 Key Insights  
+💡 High-revenue products are not always high-profit
+💡 Urban pharmacies outperform rural in sales but not always in margins
+💡 Seasonal spikes strongly impact inventory efficiency
+💡 Certain regions consistently underperform → optimisation opportunity
+💡 Promotions increase volume but reduce margin in some categories
 
-- Higher creatinine levels are associated with increased CKD cases  
-- Older age groups show a higher concentration of kidney-related conditions  
-- Combined health indicators help highlight potential risk patterns  
+🧠 Analytical Approach
 
----
+1. Data Cleaning & Preparation
 
-## 🧠 Skills Demonstrated  
+Handling missing values
+Standardising country/region hierarchy
 
-- Data Cleaning & Transformation  
-- Data Modelling (Star Schema)  
-- DAX Calculations  
-- Dashboard Design & User Experience  
-- Data Storytelling  
+2. Exploratory Data Analysis (EDA)
 
----
-## 📁 Repository Structure
+Sales trends
+Profit distribution
+Product segmentation
 
-```
-Kidney-Disease-PowerBI/
-├── dashboards/
-│   └── Kidney_Disease_Dashboard.pbix
-├── datasets/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
-├── images/
-│   ├── kidney_dashboard.png
-│   ├── overview.png
-│   ├── health_indicators.png
-│   └── trends.png
-├── docs/
-│   └── project_summary.pdf
-├── README.md
-└── requirements.txt
-```
+3. Dashboard Development
+
+Interactive filters
+Drill-down capability
+KPI tracking
+
+4. Insight Generation
+
+Identifying trends, outliers, and drivers
+🛠️ Tech Stack
+Tool	Purpose
+Power BI	Dashboard & Visualisation
+Python	Data Analysis
+SQL	Data Extraction
+Excel	Data Cleaning
+📂 Repository Structure
+📁 Global-Pharmacy-Analytics
+│── 📁 data
+│── 📁 dashboards
+│── 📁 notebooks
+│── 📁 images
+│── README.md
+
+🚀 How to Use
+Open the Power BI dashboard
+Use filters to explore:
+Country
+Region
+Pharmacy
+Analyse KPIs:
+Sales
+Profit
+Margin
+Identify trends and business opportunities
+
+📈 Business Impact
+
+✅ Improved profitability visibility
+✅ Better inventory planning
+✅ Smarter promotion strategies
+✅ Stronger regional decision-making
+✅ Data-driven business optimisation
+
+💡 Final Takeaway
+
+Data is only powerful when it tells a story.
+This project turns pharmacy data into clear, actionable insights that drive real business value.
+
+👩‍💻 Author
+
+Subbulakshmi Natarajan
+🎓 Master of Data Science – Monash University
+📊 Data Analytics | Healthcare | BI
+
+⭐ If you found this useful
+
+Give this repo a ⭐ and connect with me
