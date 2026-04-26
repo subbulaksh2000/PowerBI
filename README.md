@@ -6,7 +6,7 @@
 
 ## 📊 Dashboard Preview
 
-![Dashboard](images /dashboard.png)
+![Dashboard](images%20/dashboard.png)
 
 ---
 
@@ -97,12 +97,14 @@ Allows dynamic and flexible data exploration.
 ---
 
 ## 📂 Repository Structure
+
+```
 Pharmacy-Sales/
-│── images/
-│ └── dashboard.png
+│── images /
+│   └── dashboard.png
 │── Pharmacy.pbix
 │── README.md
-
+```
 
 ---
 
