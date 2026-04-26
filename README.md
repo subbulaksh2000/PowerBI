@@ -1,101 +1,83 @@
-# 💊 Global Pharmacy Analytics Dashboard  
-### 📊 Turning Complex Data into Strategic Decisions
+💊 Multi-Country Pharmacy Performance & Profitability Insights
+📊 Dashboard Preview
 
-![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow?logo=powerbi)  
-![Python](https://img.shields.io/badge/Language-Python-blue?logo=python)  
-![SQL](https://img.shields.io/badge/Database-SQL-lightgrey?logo=postgresql)  
-![Status](https://img.shields.io/badge/Project-Completed-success)  
+📌 Project Overview
 
----
+This project analyses pharmacy operations across multiple countries to uncover key drivers of revenue, profitability, and regional performance.
 
-## 🌍 Project Overview  
-Pharmacy chains operating across multiple countries generate vast amounts of data — but **data alone doesn’t drive decisions**.
+The dashboard provides a comprehensive, data-driven view of how different countries and pharmacy locations contribute to overall business success, enabling better strategic and operational decisions.
 
-This project transforms fragmented pharmacy data into **actionable insights** by analysing:
+🎯 Key Business Question
 
-- Sales performance  
-- Profitability drivers  
-- Regional trends  
-- Product behaviour  
-- Promotion effectiveness  
+How do revenue and profitability vary across countries, regions, and pharmacies, and which areas contribute most to overall business performance?
 
-👉 The goal: **Enable smarter, faster, and more profitable decisions**
+📊 Key Metrics
+💰 Total Revenue: €8.63M
+📈 Total Margin: €2.42M
+📦 Total Units Sold: 445.79K
+📊 Margin %: 28.0%
+📈 Dashboard Features
+🌍 1. Revenue by Country
+Identifies top-performing markets
+Germany leads in total revenue contribution
+Highlights variation across countries
+📅 2. Revenue Trend Over Time
+Shows steady growth from 2024 to 2025
+Helps identify seasonal or growth patterns
+🧮 3. Profitability Overview
+Margin and margin % provide insight into efficiency
+Enables comparison between high-revenue and high-profit regions
+🧩 4. Country Contribution (Treemap)
+Visualises proportional contribution of each country
+Quickly identifies dominant and smaller markets
+📊 5. Revenue vs Profitability (Scatter Plot)
+Compares Total Revenue vs Total Margin
+Highlights:
+High revenue but low profit countries
+Efficient high-margin markets
+🎛️ 6. Interactive Filters
+Country
+Region
+Pharmacy Type
+Promotion Flag
 
----
+Enables dynamic exploration of the dataset.
 
-## 🎯 Business Problem  
-Pharmacy leaders often lack:
+🔍 Key Insights
+Germany is the leading contributor to overall revenue
+Revenue shows consistent growth over time
+Some countries generate high sales but relatively lower margins, indicating potential cost inefficiencies
+Profitability varies across regions, highlighting opportunities for optimisation
+Scatter analysis reveals differences in efficiency between markets
+🛠️ Tools & Technologies
+📊 Power BI – Dashboard development
+🐍 Python / Excel – Data preparation
+🧮 DAX – Calculations and measures
+📂 Repository Structure
+PowerBI/
+│── images/
+│   └── dashboard.png
+│── Pharmacy_Dashboard.pbix
+│── README.md
+🚀 How to Use
+Open the .pbix file in Power BI Desktop
+Use slicers to filter by country, region, or category
+Analyse trends, performance, and profitability
+Explore drill-down insights for deeper analysis
+💡 Business Value
 
-- A unified view of global performance  
-- Clear identification of high-value locations  
-- Insight into profitability vs volume trade-offs  
-- Understanding of promotion ROI  
-- Visibility into regional and seasonal trends  
+This dashboard helps:
 
----
+Identify high-performing and underperforming markets
+Optimise pricing and cost strategies
+Improve inventory and operational planning
+Support data-driven decision-making
+👩‍💻 Author
 
-## ⚠️ Key Challenges Identified  
+Subbulakshmi Natarajan
+Master of Data Science – Monash University
+Data Analytics | Healthcare | Business Intelligence
 
-### 🌍 Fragmented Global Visibility  
-- Disconnected country-level data  
-- No single source of truth  
+⭐ If you found this useful
 
-### 📊 Performance Variability  
-- Sales & profit vary significantly across pharmacies  
-- Hard to identify true top performers  
-
-### 📅 Seasonal Demand Complexity  
-- Demand fluctuations impact:
-  - Inventory  
-  - Staffing  
-  - Promotions  
-
-### 💸 Low Margin, High Volume Products  
-- Drive revenue but reduce profitability  
-- Skew performance insights  
-
-### 🎯 Promotion Effectiveness  
-- Limited tracking of:
-  - Discount impact  
-  - Campaign ROI  
-
-### 🏙️ Location-Based Differences  
-- Urban vs rural performance gaps  
-- Missed segmentation opportunities  
-
-### 🛍️ Product & Brand Inconsistency  
-- Regional variation in product success  
-- Challenges in:
-  - Assortment planning  
-  - Pricing strategy  
-
-### 🔍 Lack of Drill-Down Insights  
-- Weak hierarchy:
-  - Country → Region → Pharmacy  
-- Limits accountability  
-
-### 🗺️ Hidden Geographic Trends  
-- Missed regional growth opportunities  
-
-### 📉 Strategic Disconnect  
-- Regional insights not linked to overall business strategy  
-
----
-
-## 🎯 Project Objectives  
-
-- Identify high-performing vs underperforming pharmacies  
-- Analyse profitability drivers across regions  
-- Detect seasonal demand patterns  
-- Evaluate product & brand performance  
-- Measure promotion effectiveness  
-- Enable drill-down analysis  
-- Uncover geographic opportunities  
-
----
-
-## 📊 Dashboard Preview  
-*(Add your Power BI screenshots here)*  
-
-```markdown
-![Dashboard Preview](your-dashboard-image.png)
+Give this repo a ⭐ and feel free to connect!
