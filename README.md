@@ -6,7 +6,7 @@
 
 ## 📊 Dashboard Preview
 
-![Dashboard](images/power%20bi%20screenshot.png)
+![Dashboard](images/dashboard.png)
 
 ---
 
@@ -97,14 +97,12 @@ Allows dynamic and flexible data exploration.
 ---
 
 ## 📂 Repository Structure
-
-```
 Pharmacy-Sales/
 │── images/
-│   └── power bi screenshot.png
+│ └── dashboard.png
 │── Pharmacy.pbix
 │── README.md
-```
+
 
 ---
 
